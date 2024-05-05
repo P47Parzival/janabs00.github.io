@@ -84,7 +84,7 @@ ul.menu {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 50%;
+  width: 40%;
   height: 170vh;
   text-align: center;
   position: relative;
@@ -96,7 +96,7 @@ ul.menu {
 .text>h1{
   padding-top: 15%;
   height: 100%;
-  width: 50%;
+  width: 60%;
   float: right;
   display: flex;
   position: relative;
@@ -109,7 +109,7 @@ ul.menu {
 }
 .text>p{
   height: 100%;
-  width: 50%;
+  width: 60%;
   float: right;
   display: flex;
   position: relative;
@@ -118,5 +118,5 @@ ul.menu {
   font-weight: normal;
   color: rgb(0, 0, 0);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 1%;  
+  padding: 1%;
 }
