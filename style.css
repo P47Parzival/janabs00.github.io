@@ -9,7 +9,6 @@ html {
   padding: 0;
 }
 
-/*------------------------Scroll Bar-----------------------*/
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -28,7 +27,6 @@ html {
   background-color: #252020;
 }
 
-/*========================Nav Bar=========================*/
 .nav-bar {
   display: flex;
   flex-flow: row wrap;
@@ -49,6 +47,12 @@ html {
   padding: 20px;
   margin-left: 50px;
   font-family: Satisfy;
+}
+.logo a{
+  color: #000;
+}
+.logo a:active{
+  color: rgb(0, 0, 0);
 }
 
 ul.menu {
@@ -73,16 +77,15 @@ ul.menu {
 
 .menu li a:hover {
   color: midnightblue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .banner {
-  background-image: url("images/banner.jpg");
+  background-image: url("images/janab\ -\ frame\ at\ 0m1s.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*overflow: hidden;*/
   width: 50%;
-  height: 100vh;
+  height: 170vh;
   text-align: center;
   position: relative;
   display: flex;
@@ -91,6 +94,7 @@ ul.menu {
   float: left;
 }
 .text>h1{
+  padding-top: 15%;
   height: 100%;
   width: 50%;
   float: right;
