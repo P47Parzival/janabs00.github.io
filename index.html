@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Janabs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <section class="nav-bar">
-            <div class="logo"><a href="https://www.instagram.com/_janabs/" target="_blank" id="janab" style="text-decoration: none;">Janabs</a></div>
+            <div class="logo">
+                <a href="https://www.instagram.com/_janabs/" target="_blank" id="janab" style="text-decoration: none;">Janabs</a>
+            </div>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About us</a></li>
+                <li><a href="#home"><button class="primary-button">Home</button></a></li>
+                <li><a href="#services"><button class="primary-button">Services</button></a></li>
+                <li><a href="#about"><button class="primary-button">About Us</button></a></li>
             </ul>
             </div>
         </section>
     </header>
-    <section id="home">
-        <div class="banner"></div>
+    <section id="home" style="display: flex; justify-content: space-evenly; border: 2px dotted black;">
+        <div class="banner">
+            <img src="janab - frame at 0m1s.jpg" alt="janabsbanner">
+        </div>
         <div class="text" style="background-color: black;">
-            <h1>Janabs</h1>
-            <p>Welcome to Janabs, your ultimate destination for computer science students seeking comprehensive resources and pre-made projects for assignments. We curate a diverse collection of materials to assist you in excelling in your studies. Empower your learning journey with our expertly crafted content and unlock your full potential in the world of computer science.</p>
-            
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, porro perferendis dolor animi beatae quidem fugit, sapiente officiis molestias ullam voluptates! Delectus culpa iste quia tenetur minima quo consectetur eveniet dolorum distinctio dignissimos enim nisi obcaecati totam labore, impedit maiores ratione commodi incidunt debitis molestias repudiandae ad dolor velit veniam.</p>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate expedita neque esse porro excepturi qui facilis aliquam tempore assumenda in illo similique, commodi quas ea, eum accusamus odit non pariatur ducimus quisquam fuga? Commodi, exercitationem aliquid asperiores, ad delectus ab nemo nulla libero, excepturi odit fugit nisi. Nesciunt, nisi blanditiis!
+            <h1 id="janabs1">Janabs</h1>
+            <p>Welcome to Janabs, your ultimate destination for computer science students seeking comprehensive
+                resources and pre-made projects for assignments. We curate a diverse collection of materials to assist
+                you in excelling in your studies. Empower your learning journey with our expertly crafted content and
+                unlock your full potential in the world of computer science.</p><br><br><br>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, porro perferendis dolor animi beatae
+                quidem fugit, sapiente officiis molestias ullam voluptates! Delectus culpa iste quia tenetur minima quo
+                consectetur eveniet dolorum distinctio dignissimos enim nisi obcaecati totam labore, impedit maiores
+                ratione commodi incidunt debitis molestias repudiandae ad dolor velit veniam.</p><br><br><br>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate expedita neque esse porro excepturi
+                qui facilis aliquam tempore assumenda in illo similique, commodi quas ea, eum accusamus odit non
+                pariatur ducimus quisquam fuga? Commodi, exercitationem aliquid asperiores, ad delectus ab nemo nulla
+                libero, excepturi odit fugit nisi. Nesciunt, nisi blanditiis!
             </p>
         </div>
     </section>
+    <footer style="margin-top: 90px; border: 2px dotted black;">
+        <div style="display: flex; justify-content: space-evenly;">
+            <div class="creators">
+                <h1>About Creators</h1><br><br>
+                <h3>Dhruv Mali</h3>
+                <h3>Dhwanish Desai</h3>
+                <h3>Tanish Chaudhari</h3>
+                <h3>Hemal Parmar</h3>
+                <h3>Dev Kadakia</h3>
+                <h3>Siddhant shankeshara</h3>
+            </div>
+            <div class="Social-media">
+                <h1>Social- Media</h1><br><br>
+                <a style="text-decoration: none; margin-left: 15px;" href="https://www.instagram.com/_janabs/"><ion-icon style="font-size: xx-large;" name="logo-instagram"></ion-icon></a>
+                <a style="text-decoration: none; margin-left: 15px;" href="#"><ion-icon style="font-size: xx-large;" name="logo-twitter"></ion-icon></a>
+                <a style="text-decoration: none; margin-left: 15px;" href="#"><ion-icon style="font-size: xx-large;" name="logo-facebook"></ion-icon></a>
+                <a style="text-decoration: none; margin-left: 15px;" href="#"><ion-icon style="font-size: xx-large;" name="logo-linkedin"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
